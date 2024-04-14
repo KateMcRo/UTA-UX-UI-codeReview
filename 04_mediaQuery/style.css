@@ -1,0 +1,61 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-areas:
+      "title title"
+      "sidebar content"
+      "footer footer";
+  }
+  
+  .nest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "two two three"
+        "two two three"
+        "one one three"
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px){
+     .nest{
+        color: white;
+        /* Create grid for small screen content*/
+        }
+    }
+  
+  .title {
+    grid-area: title;
+    background-color: lightblue;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+    background-color: grey;
+  }
+  
+  .content {
+    grid-area: content;
+    border: 2px solid black;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: green
+  }
+  
+  .one {
+    grid-area: one;
+    background-color: yellow
+  }
+  
+  .two {
+    grid-area: two;
+    background-color: orange
+  }
+  
+  .three {
+    grid-area: three;
+    background-color: red
+  }

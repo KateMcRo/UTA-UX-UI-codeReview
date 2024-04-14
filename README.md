@@ -1,8 +1,8 @@
-## UX/UI Coding Review
+# UX/UI Coding Review
 
 This repository contains supplemental files aimed at helping fill common knowledge gaps and reinforcing the concepts we'll be covering in the session. These files are intended to be used alongside live demonstrations where I'll be walking you through various topics.
 
-# Topics
+## Topics
 
 1. HTML Structure: Explore examples of well-structured HTML documents to understand the fundamentals of building the backbone of web pages.
 
@@ -10,11 +10,13 @@ This repository contains supplemental files aimed at helping fill common knowled
 
 3. Flex vs. Grids: Understand the differences between flexbox and CSS grid layout systems and when to use each for optimal design control.
 
-4. jQuery: Get hands-on experience with jQuery to understand how to manipulate HTML elements, handle events, and simplify JavaScript code.
+4. Media Queries: Apply media queries to your CSS code to adjust the layout and styling of your web pages based on different screen sizes and devices.
 
 5. JavaScript Functions: Learn about JavaScript functions, including defining functions, passing arguments, and returning values, to enhance interactivity in your web applications.
 
-# How to Use
+6. jQuery: Get hands-on experience with jQuery to understand how to manipulate HTML elements, handle events, and simplify JavaScript code.
+
+## How to Use
 
 1. Clone this repository to your local machine and open the files in your preferred code editor.
    - Alternatively you can copy the files into codepen.
@@ -22,6 +24,6 @@ This repository contains supplemental files aimed at helping fill common knowled
 3. Experiment with the code and try out variations to deepen your understanding.
 4. Feel free to ask questions and engage in discussions during the session.
 
-# _Notes_
+## _Notes_
 
 _Feel free to use this space to take additional notes_
