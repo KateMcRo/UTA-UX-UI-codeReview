@@ -21,7 +21,7 @@
   @media (min-width: 481px) and (max-width: 767px){
      .nest{
         color: white;
-        /* Create grid for small screen content*/
+        /* Create nested grid for small screen content*/
         }
     }
   
